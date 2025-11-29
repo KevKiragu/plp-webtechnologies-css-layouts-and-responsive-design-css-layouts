@@ -1,0 +1,78 @@
+body{
+background-color: rgb(52, 83, 52);
+color:white;
+
+}
+#contact{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    
+}
+#contact:hover{
+    background-color: white;
+    color: rgb(52, 83, 52);
+}
+
+#outside-view{
+    width: 150vh;
+    height: 60vh;
+   
+
+}
+#outside-view img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover; 
+   
+ 
+}
+#topheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headerleft{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#transform-section {
+    display: flex;
+    align-items: center;
+    gap: 320px;
+    
+}
+#transform-section p {
+
+    text-align:justify; 
+    width: 40%;   
+    
+}
+#hofdreams{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+#hofdreams:hover{
+    background-color: white;
+    color: rgb(52, 83, 52);
+}
+#outdoor-living {
+    display: flex;
+    
+}
+#footer{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
